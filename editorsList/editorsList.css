@@ -1,0 +1,65 @@
+.card {
+    font-family: BentonSansCond, Helvetica, Arial, Sans-Serif;
+    width: 480px;
+    background-color: rgb(241, 241, 241);
+    padding-left: 15px;
+}
+
+.columnistsViews {
+    width: 469px;
+    color: rgb(180, 0, 0);
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+    line-height: 2.5em;
+    font-weight: bold;
+    font-size: 0.80em;
+    transform: scale(0.99, 1.2);
+}
+  
+.editorsList {
+    
+    list-style-type: none;
+    padding: 0;
+    margin-left: 5px;
+}
+  
+.editorsList > *:not(:last-child) {
+    border-bottom: 1px solid grey;
+}
+
+.editorsList li {
+    width: 469px;
+    line-height: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+        "name photo"
+        "description photo";
+}
+
+.editorName {
+    color: blue;
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: scale(0.99, 1.2);
+    grid-area: name;
+}
+
+.editorDescription {
+    grid-area: description;
+}
+
+.profileImage {
+    grid-area: photo;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.profileImage img {
+    width: 75px;
+    border-radius: 50%;
+}
