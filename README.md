@@ -17,7 +17,7 @@ A user card using HTML & CSS.
 
 
 ### Inspiration photo:
-![Inspiration Photo](./userCard/assets/user-card-inspiration.png)
+<img src="./userCard/assets/user-card-inspiration.png" alt="Inspiration Photo" style="width:300px;"/>
 
 # Editors List
 An Editors List using HTML & CSS.
